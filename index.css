@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+html {
+  font-size: calc(1em + 0.5vw);
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  text-underline-position: under;
+  /* color: rgb(209, 175, 148); */
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-size: 12em;
+  font-weight: 400;
+  font-family: "Parisienne", cursive;
+  /* color: #ffffff; */
+  /* color: rgb(209, 175, 148); */
+}
+
+h3 {
+  font-family: "Parisienne", cursive;
+  /* color: rgb(209, 175, 148); */
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.company {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  /* margin-top: 2vh;
+  padding-top: 30vh; */
+}
+.contact {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  /* padding-top: 20vh; */
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+.footer {
+  width: 100vw;
+  height: 5vh;
+  /* line-height: 5vh; */
+  text-align: left;
+  font-size: 0.5em;
+  color: white;
+  padding-bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+}
+.footer-text {
+  float: right;
+  line-height: 5vh;
+  margin-right: 0.5em;
+}
